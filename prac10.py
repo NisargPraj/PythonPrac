@@ -8,7 +8,6 @@ flag = 1
 
 while flag == 1:
     r = random.randrange(1, 10, 1)
-    print(r)
     user = input("Guess the number between 1 and 9: ")
 
     if user == 'exit':
